@@ -90,7 +90,7 @@
     margin-bottom: 200px;
     background-color: dodgerblue;
     width: 79%;
-    height: 1100px;
+    height: 1500px;
 }
 
 .firstProject {
@@ -165,7 +165,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 100px;
     position: relative;
 }
 
@@ -182,17 +182,19 @@
 }
 
 .button-small {
-    width: 350px;
-    height: 200px;
+    width: 30%;
+    height: 400px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .button-large {
-    width: 800px;
-    height: 500px;
+    width: 1000px;
+    height: 800px;
 }
 
 .button0 {
-    background-image: url(https://www.techrepublic.com/a/hub/i/r/2021/02/17/3c192f18-47eb-428a-b64f-ba57fcd3c36a/resize/1200x/03e226ca44cdd6509c01aaaa6ffa0095/programming-coding.jpg);
+    background-image: url(../images/home-page-screenshot.png);
     background-size: cover;
     background-position: center;
     display: block;
@@ -201,13 +203,13 @@
     position: relative;
 }
 .button1 {
-    background-image: url(https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2017Q2/project-planning-header@2x.png);
+    background-image: url(../images/outline.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .button2 {
-    background-image: url(https://s27389.pcdn.co/wp-content/uploads/2021/04/12-steps-towards-secure-project-management-framework.jpeg);
+    background-image: url(../images/quizpage.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -220,6 +222,12 @@
 
 .button4 {
     background-image: url(https://edsurge.imgix.net/uploads/post/image/12176/coding-1556754232.jpg?auto=compress%2Cformat&w=1024&h=512&fit=crop);
+    background-size: cover;
+    background-position: center;
+}
+
+.button5 {
+    background-image: url(https://s27389.pcdn.co/wp-content/uploads/2021/04/12-steps-towards-secure-project-management-framework.jpeg);
     background-size: cover;
     background-position: center;
 }

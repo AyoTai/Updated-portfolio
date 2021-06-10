@@ -3,7 +3,7 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
 }
-
+/* Header and Navbar */
 .main-header {
     background-color: dodgerblue;
 }
@@ -38,7 +38,7 @@
     background-color: rgba(255, 255, 255, .3);
     border: 1px solid black;
 }
-
+/* Hero IMAGE */
 .hero {
     height: 700px;
     width: 100%;
@@ -47,14 +47,14 @@
     background-size: cover;
     background-position: bottom;
 }
-
+/* Header 1 */
 .myname {
     text-align: center;
     font-size: 4em;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white
 }
-
+/* Bio */
 #aboutme {
     display:flex;
     justify-content: center;
@@ -83,7 +83,7 @@
     left: 350px;
     border-radius: 50%;
 }
-
+/* Project section */
 #work {
     float: right;
     margin-top: 100px;
@@ -164,7 +164,6 @@
 
 .button-wrapper-small {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     margin-top: 100px;
     position: relative;
@@ -261,10 +260,6 @@
     color: white;
 }
 
-/* .gitlinks {
-    width:250px;
-} */
-
 .gitimg {
     width: 8%;
 }
@@ -272,7 +267,7 @@
 .gitimg2 {
     width: 4%;
 }
-
+/* Contact Section */
 #contactme {
     display:flex;
     justify-content: center;

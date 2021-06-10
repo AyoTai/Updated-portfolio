@@ -90,7 +90,7 @@
     margin-bottom: 200px;
     background-color: dodgerblue;
     width: 79%;
-    height: 1500px;
+    height: 1600px;
 }
 
 .firstProject {
@@ -110,7 +110,9 @@
 .projects {
     top: 100px;
     left: 50px;
-    font-size: 30px;
+    font-size: 35px;
+    text-align: center;
+    color: white;
 }
 
 .projectpic {
@@ -163,7 +165,6 @@
 .button-wrapper-small {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
     margin-top: 100px;
     position: relative;
@@ -182,7 +183,7 @@
 }
 
 .button-small {
-    width: 30%;
+    width: 35%;
     height: 400px;
     margin-left: 100px;
     margin-right: 100px;
@@ -230,6 +231,46 @@
     background-image: url(https://s27389.pcdn.co/wp-content/uploads/2021/04/12-steps-towards-secure-project-management-framework.jpeg);
     background-size: cover;
     background-position: center;
+}
+
+.lable {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+    align-items: center;
+    color: white;
+}
+
+.lable2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    position: relative;
+    width:50%;
+    color: white;
+}
+
+.lable3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    position: relative;
+    width:50%;
+    left: 750px;
+    bottom: 35px;
+    color: white;
+}
+
+/* .gitlinks {
+    width:250px;
+} */
+
+.gitimg {
+    width: 8%;
+}
+
+.gitimg2 {
+    width: 4%;
 }
 
 #contactme {
